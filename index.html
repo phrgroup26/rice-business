@@ -5,64 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rice Product Catalog</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0; padding: 0;
-      background: #f4f6f9;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(135deg, #4CAF50, #2e7d32);
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    header h1 { margin: 0; font-size: 2rem; }
-    .controls {
-      display: flex; flex-wrap: wrap; gap: 1rem;
-      padding: 1rem; background: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky; top: 0; z-index: 100;
-    }
-    input, select {
-      padding: 0.7rem; font-size: 1rem;
-      border: 1px solid #ccc; border-radius: 6px;
-      flex: 1; min-width: 200px;
-    }
-    .list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem; padding: 1.5rem;
-    }
-    .card {
-      background: white; border-radius: 10px;
-      padding: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
-    .card img { max-width: 100%; height: auto; border-radius: 6px; margin-bottom: 0.5rem; }
-    .card h3 { margin: 0.5rem 0; font-size: 1.3rem; color: #2e7d32; }
-    .weights { font-size: 0.9rem; color: #555; }
-    @media (max-width: 600px) {
-      header h1 { font-size: 1.5rem; }
-      .controls { flex-direction: column; }
-    }
-    /* Spinner */
-    .spinner {
-      display: none;
-      text-align: center;
-      padding: 2rem;
-    }
-    .spinner div {
-      width: 40px; height: 40px;
-      border: 4px solid #4CAF50;
-      border-top: 4px solid transparent;
-      border-radius: 50%;
-      margin: auto;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin { 100% { transform: rotate(360deg); } }
+    body { font-family: 'Segoe UI', sans-serif; margin:0; background:#f4f6f9; }
+    header { background:linear-gradient(135deg,#4CAF50,#2e7d32); color:white; padding:1.5rem; text-align:center; }
+    .controls { display:flex; flex-wrap:wrap; gap:1rem; padding:1rem; background:#fff; position:sticky; top:0; z-index:100; }
+    input, select { padding:0.7rem; border:1px solid #ccc; border-radius:6px; flex:1; min-width:200px; }
+    .list { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; padding:1.5rem; }
+    .card { background:white; border-radius:10px; padding:1rem; box-shadow:0 4px 8px rgba(0,0,0,0.1); cursor:pointer; transition:transform 0.2s; }
+    .card:hover { transform:translateY(-5px); }
+    .card img { max-width:100%; border-radius:6px; margin-bottom:0.5rem; }
+    .card h3 { margin:0.5rem 0; font-size:1.2rem; color:#2e7d32; }
+    .weights { font-size:0.9rem; color:#555; }
+    /* Modal */
+    .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; }
+    .modal-content { background:white; padding:1rem; border-radius:8px; max-width:90%; max-height:90%; overflow:auto; }
+    .modal-content img { max-width:100%; margin:0.5rem 0; cursor:zoom-in; }
+    .close { float:right; font-size:1.5rem; cursor:pointer; }
   </style>
 </head>
 <body>
@@ -84,7 +41,14 @@
   </div>
 
   <div class="list" id="list"></div>
-  <div class="spinner" id="spinner"><div></div></div>
+
+  <!-- Modal for zoom -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="close">&times;</span>
+      <div id="modal-images"></div>
+    </div>
+  </div>
 
   <script>
     let data = [];
@@ -92,10 +56,8 @@
     const batchSize = 20;
 
     async function loadData() {
-      showSpinner(true);
       const res = await fetch("rice-list.json");
       data = await res.json();
-      showSpinner(false);
       renderList();
       window.addEventListener("scroll", handleScroll);
     }
@@ -106,19 +68,18 @@
       const items = filteredData || data;
       const slice = items.slice(displayedCount, displayedCount + batchSize);
       slice.forEach(item => {
+        const availableWeights = Object.entries(item.weights)
+          .filter(([k,v]) => v === 1.0)
+          .map(([k]) => k)
+          .join(", ");
         const card = document.createElement("div");
         card.className = "card";
         card.innerHTML = `
           <img src="${item.image}" alt="${item.name}">
           <h3>${item.name}</h3>
-          <p><strong>Category:</strong> ${item.category || "N/A"}</p>
-          <p class="weights"><strong>Weights:</strong> 
-            ${Object.entries(item.weights)
-              .filter(([k,v]) => v !== null)
-              .map(([k,v]) => `${k}: ${v}`)
-              .join(", ")}
-          </p>
+          <p class="weights"><strong>Available Weights:</strong> ${availableWeights || "N/A"}</p>
         `;
+        card.addEventListener("click", () => openModal(item));
         list.appendChild(card);
       });
       displayedCount += slice.length;
@@ -140,9 +101,23 @@
       renderList(filtered, reset);
     }
 
-    function showSpinner(show) {
-      document.getElementById("spinner").style.display = show ? "block" : "none";
+    function openModal(item) {
+      const modal = document.getElementById("modal");
+      const modalImages = document.getElementById("modal-images");
+      modalImages.innerHTML = "";
+      // Show main image + additional images (future expansion)
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = item.name;
+      img.addEventListener("click", () => img.style.transform = "scale(1.5)");
+      modalImages.appendChild(img);
+      // Future: loop through item.moreImages array if available
+      modal.style.display = "flex";
     }
+
+    document.getElementById("close").addEventListener("click", () => {
+      document.getElementById("modal").style.display = "none";
+    });
 
     document.getElementById("search").addEventListener("input", () => applyFilters(true));
     document.getElementById("category").addEventListener("change", () => applyFilters(true));
