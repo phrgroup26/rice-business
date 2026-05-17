@@ -16,13 +16,19 @@
     .card h3 { margin:0.5rem 0; font-size:1.2rem; color:#2e7d32; }
     .weights { font-size:0.9rem; color:#555; }
     /* Modal */
-    .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:flex-start; overflow:auto; }
-    .modal-content { background:white; padding:1rem; border-radius:8px; max-width:90%; margin-top:2rem; }
-    .modal-controls { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem; }
-    .modal-controls input, .modal-controls select { flex:1; min-width:200px; }
+    .modal { 
+      display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+      background:rgba(0,0,0,0.8); justify-content:center; align-items:flex-start; 
+      overflow:auto; z-index:9999; animation: fadeIn 0.4s ease; 
+    }
+    .modal-content { 
+      background:white; padding:1rem; border-radius:8px; max-width:90%; margin-top:2rem; 
+      position:relative; z-index:10000; 
+    }
     .modal-images img { max-width:100%; margin:0.5rem 0; cursor:zoom-in; transition:transform 0.3s; }
     .modal-images img.zoomed { transform:scale(1.5); }
     .close { float:right; font-size:1.5rem; cursor:pointer; }
+    @keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
   </style>
 </head>
 <body>
@@ -49,20 +55,6 @@
   <div class="modal" id="modal">
     <div class="modal-content">
       <span class="close" id="close">&times;</span>
-      <div class="modal-controls">
-        <input type="text" id="modal-search" placeholder="🔍 Search rice name...">
-        <select id="modal-category">
-          <option value="">📂 All Categories</option>
-          <option value="AKSHAYA PONNI">AKSHAYA PONNI</option>
-          <option value="BASMATI">BASMATI</option>
-          <option value="HMT RICE">HMT RICE</option>
-          <option value="IDLY RICE">IDLY RICE</option>
-          <option value="JEERA RICE">JEERA RICE</option>
-          <option value="NEI KITCHADI">NEI KITCHADI</option>
-          <option value="RAJAPOGAM">RAJAPOGAM</option>
-          <option value="SEERAGA SAMBA">SEERAGA SAMBA</option>
-        </select>
-      </div>
       <div class="modal-images" id="modal-images"></div>
     </div>
   </div>
@@ -89,73 +81,4 @@
           .filter(([k,v]) => v === 1.0)
           .map(([k]) => k)
           .join(", ");
-        const card = document.createElement("div");
-        card.className = "card";
-        card.innerHTML = `
-          <img src="${item.image}" alt="${item.name}">
-          <h3>${item.name}</h3>
-          <p class="weights"><strong>Available Weights:</strong> ${availableWeights || "N/A"}</p>
-        `;
-        card.addEventListener("click", () => openModal(item));
-        list.appendChild(card);
-      });
-      displayedCount += slice.length;
-    }
-
-    function handleScroll() {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
-        applyFilters(false);
-      }
-    }
-
-    function applyFilters(reset = true) {
-      const term = document.getElementById("search").value.toLowerCase();
-      const cat = document.getElementById("category").value;
-      let filtered = data.filter(item =>
-        item.name.toLowerCase().includes(term) &&
-        (cat ? item.category === cat : true)
-      );
-      renderList(filtered, reset);
-    }
-
-    function openModal(item) {
-      const modal = document.getElementById("modal");
-      const modalImages = document.getElementById("modal-images");
-      modalImages.innerHTML = "";
-
-      // Show main image
-      const img = document.createElement("img");
-      img.src = item.image;
-      img.alt = item.name;
-      img.addEventListener("click", () => img.classList.toggle("zoomed"));
-      modalImages.appendChild(img);
-
-      // Future: loop through item.moreImages array if available
-      if (item.moreImages) {
-        item.moreImages.forEach(src => {
-          const extraImg = document.createElement("img");
-          extraImg.src = src;
-          extraImg.alt = item.name;
-          extraImg.addEventListener("click", () => extraImg.classList.toggle("zoomed"));
-          modalImages.appendChild(extraImg);
-        });
-      }
-
-      modal.style.display = "flex";
-    }
-
-    document.getElementById("close").addEventListener("click", () => {
-      document.getElementById("modal").style.display = "none";
-    });
-
-    document.getElementById("search").addEventListener("input", () => applyFilters(true));
-    document.getElementById("category").addEventListener("change", () => applyFilters(true));
-
-    // Modal search + category filter
-    document.getElementById("modal-search").addEventListener("input", () => applyFilters(true));
-    document.getElementById("modal-category").addEventListener("change", () => applyFilters(true));
-
-    loadData();
-  </script>
-</body>
-</html>
+        const card = document
