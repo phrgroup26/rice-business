@@ -3,1170 +3,1170 @@
     "name": "AACHI RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "AANDAAL RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ADUKKU MALLI IDLY RICE",
     "category": "IDLY RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ANNATHAI PAAL URUTTU RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "APPLE PREMIUM QUALITY",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "APPLE BRAND PREMIUM NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ATSHAYA GOLD RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "BABA JEERA RICE",
     "category": "JEERA RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "BELL BRAND PREMIUM QUALITY RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "BISMI SEERAGA SAMBA",
     "category": "SEERAGA SAMBA",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "BK JAI SHREE RAM RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "DEEPAM",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "FESTIVAL HMT RICE",
     "category": "HMT RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GIRI KISSAN NEI KITCHADI(BLUE)",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GIRI KISSAN NEI KITCHADI(OLD)",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GIRI KISSAN NEI KITCHADI(YELLOW)",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GOKULA KRISHNA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GOPURAM",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GOPURAM NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GOMATHA RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "JODI PURA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KANI RICE DELUX PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KANI RICE SENGAL PATTU",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KAMADENU GOLD RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KAVIN'S AKSHAYA PONNI",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KAVIN SPECIAL NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KAVIN'S MOON BPT RAW RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KARIKUDI KITCHEN MASTER",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
-    "name": "KANnull SAMBA RICE",
+    "name": "KANNAN SAMBA RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KITCHEN KING BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KURINCHI NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "LION BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "MAAN GOLD CLASSIC",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
-    "name": "MAAN GOLD RAJAPOGUM",
+    "name": "MAAN GOLD RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
-    "name": "MAHADEVA RAJAPOGUM",
+    "name": "MAHADEVA RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "MSR GOLD ATCHAYA PONNI",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "MSR GOLD NAYAM NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "NAWAAB",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "NAXCHATRA MAAN NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "NAXCHATRA YES BRAND HMT KITCHADI",
     "category": "HMT RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "NAXCHATRA MAAN ROYAL RAW RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ORANGE GOLD IDLY RICE",
     "category": "IDLY RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "PAAL URUTTU RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "PTS BRAND NAATTU SAMBA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RADHA KRISHNA NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RAANI BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RETTAI MAAN BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RETTAI MAAN SEERAGA SAMBA",
     "category": "SEERAGA SAMBA",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK BRAND IDLY RICE",
     "category": "IDLY RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK BRAND IR 20",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK BRAND SENGALPATTU RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK CHOLA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK IDLY RICE",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
-    "name": "ROJA PUSHPAM SUPER DELUX RAJAPOGUM PONNI",
+    "name": "ROJA PUSHPAM SUPER DELUX RAJAPOGAM PONNI",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ROYAL BULLET BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SAVITRI AKSHATAA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SENTHIL BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SINGAM BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SKANDA CLASSIC",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SKANDA JEERA RICE",
     "category": "JEERA RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SL VK K.KING",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SRI AANDAAL ATCHAYA GOLD",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SULTAN",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SUPER FINE RICE PREMIUM QUALITY",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SURYA HMT RICE",
     "category": "HMT RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "THAMARAI SPECIAL",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "THAMARAI SPECIAL ITLY RICE",
     "category": "IDLY RICE",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "THANGA MAYIL VIP SPECIAL PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "TULASI LACKKARI VADA KOLLAM",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "ULAIPPALI ATCHAYA PONNI RICE",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "VEL MARK",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "VIJALAKSHMI BRAND",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "VIJAY GOLD RAJAPOGAM",
     "category": "RAJAPOGAM",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
       "26KG": 1.0,
-      "30KG": null,
-      "50KG": null
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "INDIA GATE CLASSIC",
     "category": "BASMATI",
     "weights": {
       "1KG": 1.0,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "INDIA GATE ROZZANA",
     "category": "BASMATI",
     "weights": {
       "1KG": 1.0,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "INDIA GATE UNITY",
     "category": "BASMATI",
     "weights": {
       "1KG": 1.0,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-rozzana.webp"
   },
   {
-    "name": "INDIA GATE DUBARA",
+    "name": "INDIA GATE DUBAR",
     "category": "BASMATI",
     "weights": {
       "1KG": 1.0,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "GIRII'S KKK DELUX PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-dubar.webp"
   },
   {
     "name": "GIRI KISSAN NEI KITCHADI",
     "category": "NEI KITCHADI",
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "MAAN GOLD",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "MAAN GOLD CLASSIC DELUX PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
-    "name": "nullTHI IDLY RICE",
+    "name": "NANTHI IDLY RICE",
     "category": "IDLY RICE",
     "weights": {
-      "1KG": null,
+      "1KG": NaN,
       "5KG": 1.0,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KAVIN SPECIAL",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KURUVI MARK ATHISAYA PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "NAWAAB AKSHAYA PONNI",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RADHA KRISHNA",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "RK BRAND DELUX PONNI",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SREE NK AKSHAYA PONNI",
     "category": "AKSHAYA PONNI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
       "10KG": 1.0,
-      "26KG": null,
-      "30KG": null,
-      "50KG": null
+      "26KG": NaN,
+      "30KG": NaN,
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "SUPER DUBAR",
     "category": "BASMATI",
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
       "30KG": 1.0,
-      "50KG": null
+      "50KG": NaN
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   },
   {
     "name": "KURUNAI",
     "category": null,
     "weights": {
-      "1KG": null,
-      "5KG": null,
-      "10KG": null,
-      "26KG": null,
-      "30KG": null,
+      "1KG": NaN,
+      "5KG": NaN,
+      "10KG": NaN,
+      "26KG": NaN,
+      "30KG": NaN,
       "50KG": 1.0
     },
-    "image": "india-gate-classic.webp"
+    "image": "images/india-gate-classic.webp"
   }
 ]
