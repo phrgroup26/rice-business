@@ -16,9 +16,12 @@
     .card h3 { margin:0.5rem 0; font-size:1.2rem; color:#2e7d32; }
     .weights { font-size:0.9rem; color:#555; }
     /* Modal */
-    .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; }
-    .modal-content { background:white; padding:1rem; border-radius:8px; max-width:90%; max-height:90%; overflow:auto; }
-    .modal-content img { max-width:100%; margin:0.5rem 0; cursor:zoom-in; }
+    .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:flex-start; overflow:auto; }
+    .modal-content { background:white; padding:1rem; border-radius:8px; max-width:90%; margin-top:2rem; }
+    .modal-controls { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem; }
+    .modal-controls input, .modal-controls select { flex:1; min-width:200px; }
+    .modal-images img { max-width:100%; margin:0.5rem 0; cursor:zoom-in; transition:transform 0.3s; }
+    .modal-images img.zoomed { transform:scale(1.5); }
     .close { float:right; font-size:1.5rem; cursor:pointer; }
   </style>
 </head>
@@ -42,11 +45,25 @@
 
   <div class="list" id="list"></div>
 
-  <!-- Modal for zoom -->
+  <!-- Modal -->
   <div class="modal" id="modal">
     <div class="modal-content">
       <span class="close" id="close">&times;</span>
-      <div id="modal-images"></div>
+      <div class="modal-controls">
+        <input type="text" id="modal-search" placeholder="🔍 Search rice name...">
+        <select id="modal-category">
+          <option value="">📂 All Categories</option>
+          <option value="AKSHAYA PONNI">AKSHAYA PONNI</option>
+          <option value="BASMATI">BASMATI</option>
+          <option value="HMT RICE">HMT RICE</option>
+          <option value="IDLY RICE">IDLY RICE</option>
+          <option value="JEERA RICE">JEERA RICE</option>
+          <option value="NEI KITCHADI">NEI KITCHADI</option>
+          <option value="RAJAPOGAM">RAJAPOGAM</option>
+          <option value="SEERAGA SAMBA">SEERAGA SAMBA</option>
+        </select>
+      </div>
+      <div class="modal-images" id="modal-images"></div>
     </div>
   </div>
 
@@ -105,13 +122,25 @@
       const modal = document.getElementById("modal");
       const modalImages = document.getElementById("modal-images");
       modalImages.innerHTML = "";
-      // Show main image + additional images (future expansion)
+
+      // Show main image
       const img = document.createElement("img");
       img.src = item.image;
       img.alt = item.name;
-      img.addEventListener("click", () => img.style.transform = "scale(1.5)");
+      img.addEventListener("click", () => img.classList.toggle("zoomed"));
       modalImages.appendChild(img);
+
       // Future: loop through item.moreImages array if available
+      if (item.moreImages) {
+        item.moreImages.forEach(src => {
+          const extraImg = document.createElement("img");
+          extraImg.src = src;
+          extraImg.alt = item.name;
+          extraImg.addEventListener("click", () => extraImg.classList.toggle("zoomed"));
+          modalImages.appendChild(extraImg);
+        });
+      }
+
       modal.style.display = "flex";
     }
 
@@ -121,6 +150,10 @@
 
     document.getElementById("search").addEventListener("input", () => applyFilters(true));
     document.getElementById("category").addEventListener("change", () => applyFilters(true));
+
+    // Modal search + category filter
+    document.getElementById("modal-search").addEventListener("input", () => applyFilters(true));
+    document.getElementById("modal-category").addEventListener("change", () => applyFilters(true));
 
     loadData();
   </script>
