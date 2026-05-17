@@ -81,4 +81,69 @@
           .filter(([k,v]) => v === 1.0)
           .map(([k]) => k)
           .join(", ");
-        const card = document
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <img src="${item.image}" alt="${item.name}">
+          <h3>${item.name}</h3>
+          <p class="weights"><strong>Available Weights:</strong> ${availableWeights || "N/A"}</p>
+        `;
+        card.addEventListener("click", () => openModal(item));
+        list.appendChild(card);
+      });
+      displayedCount += slice.length;
+    }
+
+    function handleScroll() {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+        applyFilters(false);
+      }
+    }
+
+    function applyFilters(reset = true) {
+      const term = document.getElementById("search").value.toLowerCase();
+      const cat = document.getElementById("category").value;
+      let filtered = data.filter(item =>
+        item.name.toLowerCase().includes(term) &&
+        (cat ? item.category === cat : true)
+      );
+      renderList(filtered, reset);
+    }
+
+    function openModal(item) {
+      const modal = document.getElementById("modal");
+      const modalImages = document.getElementById("modal-images");
+      modalImages.innerHTML = "";
+
+      // Show main image
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = item.name;
+      img.addEventListener("click", () => img.classList.toggle("zoomed"));
+      modalImages.appendChild(img);
+
+      // Show extra images if available
+      if (item.moreImages) {
+        item.moreImages.forEach(src => {
+          const extraImg = document.createElement("img");
+          extraImg.src = src;
+          extraImg.alt = item.name;
+          extraImg.addEventListener("click", () => extraImg.classList.toggle("zoomed"));
+          modalImages.appendChild(extraImg);
+        });
+      }
+
+      modal.style.display = "flex";
+    }
+
+    document.getElementById("close").addEventListener("click", () => {
+      document.getElementById("modal").style.display = "none";
+    });
+
+    document.getElementById("search").addEventListener("input", () => applyFilters(true));
+    document.getElementById("category").addEventListener("change", () => applyFilters(true));
+
+    loadData();
+  </script>
+</body>
+</html>
