@@ -45,7 +45,7 @@ input:focus, select:focus {
   cursor: pointer; transition: transform 0.3s ease;
 }
 .card img:hover { transform: scale(1.05); }
-.card h3 { margin: 0.5rem 0; font-size: 1.3rem; color: #2e7d32; }
+.card h3 { margin: 0.5rem 0; font-size: 1.3rem; color: #2e7d32; text-transform: capitalize; }
 .weights { font-size: 0.9rem; color: #555; }
 
 /* Spinner */
@@ -78,11 +78,21 @@ input:focus, select:focus {
 /* WhatsApp Floating Button */
 .whatsapp {
   position: fixed; bottom: 20px; right: 20px;
-  background: #25D366; color: white;
-  border-radius: 50%; width: 60px; height: 60px;
+  background: #25D366; border-radius: 50%;
+  width: 60px; height: 60px;
   display: flex; justify-content: center; align-items: center;
-  font-size: 2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   cursor: pointer; transition: transform 0.3s ease;
   z-index: 300;
 }
+.whatsapp img {
+  width: 35px; height: 35px;
+}
 .whatsapp:hover { transform: scale(1.1); }
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  header { padding: 0.8rem; }
+  header h1 { font-size: 1.2rem; }
+  .controls { flex-direction: column; }
+}

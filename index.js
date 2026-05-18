@@ -22,17 +22,34 @@ function renderList(filteredData = null) {
   slice.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
+
+    // Format product name to Title Case
+    const titleCaseName = item.name
+      .toLowerCase()
+      .replace(/\b\w/g, char => char.toUpperCase());
+
     const weights = Object.keys(item.weights)
       .filter(k => item.weights[k] !== null)
       .join(", ");
-    card.innerHTML = `
+
+    // Build card HTML dynamically
+    let cardHTML = `
       <img src="${item.image}" alt="${item.name}" loading="lazy" onclick="showPopup('${item.image}')">
-      <h3>${item.name}</h3>
-      <p><strong>Category:</strong> ${item.category || "N/A"}</p>
-      <p class="weights"><strong>Available Weights:</strong> ${weights || "N/A"}</p>
+      <h3>${titleCaseName}</h3>
     `;
+
+    if (item.category && item.category.trim() !== "") {
+      cardHTML += `<p><strong>Category:</strong> ${item.category}</p>`;
+    }
+
+    if (weights) {
+      cardHTML += `<p class="weights"><strong>Available Weights:</strong> ${weights}</p>`;
+    }
+
+    card.innerHTML = cardHTML;
     fragment.appendChild(card);
   });
+
   list.appendChild(fragment);
   displayedCount += slice.length;
 }
@@ -46,6 +63,7 @@ function handleScroll() {
 function applyFilters() {
   const term = document.getElementById("search").value.toLowerCase();
   const cat = document.getElementById("category").value.toLowerCase();
+
   currentFiltered = data.filter(item =>
     item.name.toLowerCase().includes(term) &&
     (cat ? item.category.toLowerCase() === cat : true)
