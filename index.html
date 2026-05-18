@@ -4,71 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rice Product Catalog</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0; padding: 0;
-      background: #f4f6f9;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(135deg, #4CAF50, #2e7d32);
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    header h1 { margin: 0; font-size: 2rem; }
-    .controls {
-      display: flex; flex-wrap: wrap; gap: 1rem;
-      padding: 1rem; background: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky; top: 0; z-index: 100;
-    }
-    input, select {
-      padding: 0.7rem; font-size: 1rem;
-      border: 1px solid #ccc; border-radius: 6px;
-      flex: 1; min-width: 200px;
-    }
-    .list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem; padding: 1.5rem;
-    }
-    .card {
-      background: white; border-radius: 10px;
-      padding: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
-    .card img { max-width: 100%; height: auto; border-radius: 6px; margin-bottom: 0.5rem; }
-    .card h3 { margin: 0.5rem 0; font-size: 1.3rem; color: #2e7d32; }
-    .weights { font-size: 0.9rem; color: #555; }
-    @media (max-width: 600px) {
-      header {
-        padding: 0.8rem;   /* reduced padding */
-      }
-      header h1 {
-        font-size: 1.2rem; /* smaller font size */
-      }
-      .controls { flex-direction: column; }
-    }
-    /* Spinner */
-    .spinner {
-      display: none;
-      text-align: center;
-      padding: 2rem;
-    }
-    .spinner div {
-      width: 40px; height: 40px;
-      border: 4px solid #4CAF50;
-      border-top: 4px solid transparent;
-      border-radius: 50%;
-      margin: auto;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin { 100% { transform: rotate(360deg); } }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header><h1>🌾 Rice Product Catalog</h1></header>
@@ -91,68 +27,12 @@
   <div class="list" id="list"></div>
   <div class="spinner" id="spinner"><div></div></div>
 
-  <script>
-    let data = [];
-    let displayedCount = 0;
-    const batchSize = 20;
+  <!-- Popup -->
+  <div class="popup" id="popup"><img id="popupImg" src="" alt=""></div>
 
-    async function loadData() {
-      showSpinner(true);
-      const res = await fetch("rice-list.json");
-      data = await res.json();
-      showSpinner(false);
-      renderList();
-      window.addEventListener("scroll", handleScroll);
-    }
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/918667423739" target="_blank" class="whatsapp">💬</a>
 
-    function renderList(filteredData = null, reset = false) {
-      const list = document.getElementById("list");
-      if (reset) { list.innerHTML = ""; displayedCount = 0; }
-      const items = filteredData || data;
-      const slice = items.slice(displayedCount, displayedCount + batchSize);
-      slice.forEach(item => {
-        const card = document.createElement("div");
-        card.className = "card";
-        card.innerHTML = `
-          <img src="${item.image}" alt="${item.name}">
-          <h3>${item.name}</h3>
-          <p><strong>Category:</strong> ${item.category || "N/A"}</p>
-          <p class="weights"><strong>Weights:</strong> 
-            ${Object.entries(item.weights)
-              .filter(([k,v]) => v !== null)
-              .map(([k,v]) => `${k}: ${v}`)
-              .join(", ")}
-          </p>
-        `;
-        list.appendChild(card);
-      });
-      displayedCount += slice.length;
-    }
-
-    function handleScroll() {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
-        applyFilters(false);
-      }
-    }
-
-    function applyFilters(reset = true) {
-      const term = document.getElementById("search").value.toLowerCase();
-      const cat = document.getElementById("category").value.toLowerCase();
-      let filtered = data.filter(item =>
-        item.name.toLowerCase().includes(term) &&
-        (cat ? item.category.toLowerCase() === cat : true)
-      );
-      renderList(filtered, reset);
-    }
-
-    function showSpinner(show) {
-      document.getElementById("spinner").style.display = show ? "block" : "none";
-    }
-
-    document.getElementById("search").addEventListener("input", () => applyFilters(true));
-    document.getElementById("category").addEventListener("change", () => applyFilters(true));
-
-    loadData();
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
